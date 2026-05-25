@@ -496,5 +496,23 @@ export const tabs = [
         hidable: true
       }
     ]
+  },
+  {
+    key : "completer",
+    name: "Completer",
+    hideAt: 2.9,
+    UIClass: "o-tab-btn--completer",
+    id: 11,
+    hidable: false,
+    subtabs : [
+      {
+        key: "completer",
+        name: "Completer",
+        symbol: "C",
+        component: "CompleterTab",
+        id: 0,
+        hidable: false
+      }
+    ]
   }
 ];

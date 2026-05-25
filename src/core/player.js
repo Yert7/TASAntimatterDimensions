@@ -914,6 +914,11 @@ window.player = {
       id: false,
     }
   },
+  completer: {
+    isOn: false,
+    lastLandmarkAchieved: -1,
+    status: ""
+  }
 };
 
 export const Player = {

@@ -14,6 +14,8 @@ export * from "./confirmations";
 export * from "./autobuyers/autobuyers";
 export * from "./storage";
 
+export * from "./completer";
+
 export * from "./notations";
 export * from "./tutorial";
 
@@ -90,3 +92,5 @@ export * from "./tab-notifications";
 export * from "./speedrun";
 
 export * from "./automator/script-templates";
+
+export * from "./completer";
